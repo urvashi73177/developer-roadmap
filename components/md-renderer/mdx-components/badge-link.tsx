@@ -11,7 +11,7 @@ type BadgeLinkType = {
 
 export function BadgeLink(props: BadgeLinkType) {
   const {
-    target = '_blank',
+    targt = '_blank',
     colorScheme = 'purple',
     badgeText,
     href,
